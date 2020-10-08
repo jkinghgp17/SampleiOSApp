@@ -18,6 +18,7 @@
 		E08731EB25261B6E008D696F /* NFLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08731EA25261B6E008D696F /* NFLService.swift */; };
 		E08731EE25263C46008D696F /* NFL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E08731EC25263C46008D696F /* NFL.xcdatamodeld */; };
 		E0B19A27252B639100C935D1 /* NFLResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A26252B639100C935D1 /* NFLResponseViewModel.swift */; };
+		E0B19A29252F58B000C935D1 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A28252F58B000C935D1 /* ModelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E08731EA25261B6E008D696F /* NFLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLService.swift; sourceTree = "<group>"; };
 		E08731ED25263C46008D696F /* NFL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFL.xcdatamodel; sourceTree = "<group>"; };
 		E0B19A26252B639100C935D1 /* NFLResponseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLResponseViewModel.swift; sourceTree = "<group>"; };
+		E0B19A28252F58B000C935D1 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				E08731EA25261B6E008D696F /* NFLService.swift */,
 				E08731EC25263C46008D696F /* NFL.xcdatamodeld */,
 				E0B19A26252B639100C935D1 /* NFLResponseViewModel.swift */,
+				E0B19A28252F58B000C935D1 /* ModelManager.swift */,
 			);
 			path = "Sample-App";
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E08731D4251D20D6008D696F /* AppDelegate.swift in Sources */,
+				E0B19A29252F58B000C935D1 /* ModelManager.swift in Sources */,
 				E08731D9251D20D6008D696F /* Sample_App.xcdatamodeld in Sources */,
 				E08731EB25261B6E008D696F /* NFLService.swift in Sources */,
 				E08731DB251D20D6008D696F /* ContentView.swift in Sources */,
