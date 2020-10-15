@@ -10,15 +10,16 @@
 		58FC228FFCDC80664AC39103 /* Pods_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D68C1EC28969BF8C1FA495 /* Pods_Sample_App.framework */; };
 		E08731D4251D20D6008D696F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08731D3251D20D6008D696F /* AppDelegate.swift */; };
 		E08731D6251D20D6008D696F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08731D5251D20D6008D696F /* SceneDelegate.swift */; };
-		E08731D9251D20D6008D696F /* Sample_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E08731D7251D20D6008D696F /* Sample_App.xcdatamodeld */; };
-		E08731DB251D20D6008D696F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08731DA251D20D6008D696F /* ContentView.swift */; };
 		E08731DD251D20D8008D696F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08731DC251D20D8008D696F /* Assets.xcassets */; };
 		E08731E0251D20D8008D696F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08731DF251D20D8008D696F /* Preview Assets.xcassets */; };
 		E08731E3251D20D8008D696F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08731E1251D20D8008D696F /* LaunchScreen.storyboard */; };
-		E08731EB25261B6E008D696F /* NFLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08731EA25261B6E008D696F /* NFLService.swift */; };
-		E08731EE25263C46008D696F /* NFL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E08731EC25263C46008D696F /* NFL.xcdatamodeld */; };
-		E0B19A27252B639100C935D1 /* NFLResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A26252B639100C935D1 /* NFLResponseViewModel.swift */; };
 		E0B19A29252F58B000C935D1 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A28252F58B000C935D1 /* ModelManager.swift */; };
+		E0B19A2B253604DA00C935D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A2A253604DA00C935D1 /* NetworkManager.swift */; };
+		E0B19A2D2537665A00C935D1 /* MarvelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A2C2537665A00C935D1 /* MarvelService.swift */; };
+		E0B19A2F25376C5100C935D1 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A2E25376C5100C935D1 /* APIHelper.swift */; };
+		E0B19A32253895D500C935D1 /* MarvelModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A30253895D500C935D1 /* MarvelModel.xcdatamodeld */; };
+		E0B19A342538996100C935D1 /* MarvelResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A332538996100C935D1 /* MarvelResponseViewModel.swift */; };
+		E0B19A362538998400C935D1 /* MarvelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A352538998400C935D1 /* MarvelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,16 +29,17 @@
 		E08731D0251D20D6008D696F /* Sample-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08731D3251D20D6008D696F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08731D5251D20D6008D696F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E08731D8251D20D6008D696F /* Sample_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sample_App.xcdatamodel; sourceTree = "<group>"; };
-		E08731DA251D20D6008D696F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E08731DC251D20D8008D696F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08731DF251D20D8008D696F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E08731E2251D20D8008D696F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E08731E4251D20D8008D696F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E08731EA25261B6E008D696F /* NFLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLService.swift; sourceTree = "<group>"; };
-		E08731ED25263C46008D696F /* NFL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFL.xcdatamodel; sourceTree = "<group>"; };
-		E0B19A26252B639100C935D1 /* NFLResponseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLResponseViewModel.swift; sourceTree = "<group>"; };
 		E0B19A28252F58B000C935D1 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		E0B19A2A253604DA00C935D1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E0B19A2C2537665A00C935D1 /* MarvelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelService.swift; sourceTree = "<group>"; };
+		E0B19A2E25376C5100C935D1 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		E0B19A31253895D500C935D1 /* MarvelModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarvelModel.xcdatamodel; sourceTree = "<group>"; };
+		E0B19A332538996100C935D1 /* MarvelResponseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelResponseViewModel.swift; sourceTree = "<group>"; };
+		E0B19A352538998400C935D1 /* MarvelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +94,17 @@
 			children = (
 				E08731D3251D20D6008D696F /* AppDelegate.swift */,
 				E08731D5251D20D6008D696F /* SceneDelegate.swift */,
-				E08731DA251D20D6008D696F /* ContentView.swift */,
 				E08731DC251D20D8008D696F /* Assets.xcassets */,
 				E08731E1251D20D8008D696F /* LaunchScreen.storyboard */,
 				E08731E4251D20D8008D696F /* Info.plist */,
-				E08731D7251D20D6008D696F /* Sample_App.xcdatamodeld */,
 				E08731DE251D20D8008D696F /* Preview Content */,
-				E08731EA25261B6E008D696F /* NFLService.swift */,
-				E08731EC25263C46008D696F /* NFL.xcdatamodeld */,
-				E0B19A26252B639100C935D1 /* NFLResponseViewModel.swift */,
 				E0B19A28252F58B000C935D1 /* ModelManager.swift */,
+				E0B19A2A253604DA00C935D1 /* NetworkManager.swift */,
+				E0B19A2C2537665A00C935D1 /* MarvelService.swift */,
+				E0B19A2E25376C5100C935D1 /* APIHelper.swift */,
+				E0B19A30253895D500C935D1 /* MarvelModel.xcdatamodeld */,
+				E0B19A332538996100C935D1 /* MarvelResponseViewModel.swift */,
+				E0B19A352538998400C935D1 /* MarvelViewController.swift */,
 			);
 			path = "Sample-App";
 			sourceTree = "<group>";
@@ -229,13 +232,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B19A2B253604DA00C935D1 /* NetworkManager.swift in Sources */,
 				E08731D4251D20D6008D696F /* AppDelegate.swift in Sources */,
 				E0B19A29252F58B000C935D1 /* ModelManager.swift in Sources */,
-				E08731D9251D20D6008D696F /* Sample_App.xcdatamodeld in Sources */,
-				E08731EB25261B6E008D696F /* NFLService.swift in Sources */,
-				E08731DB251D20D6008D696F /* ContentView.swift in Sources */,
-				E08731EE25263C46008D696F /* NFL.xcdatamodeld in Sources */,
-				E0B19A27252B639100C935D1 /* NFLResponseViewModel.swift in Sources */,
+				E0B19A362538998400C935D1 /* MarvelViewController.swift in Sources */,
+				E0B19A342538996100C935D1 /* MarvelResponseViewModel.swift in Sources */,
+				E0B19A32253895D500C935D1 /* MarvelModel.xcdatamodeld in Sources */,
+				E0B19A2D2537665A00C935D1 /* MarvelService.swift in Sources */,
+				E0B19A2F25376C5100C935D1 /* APIHelper.swift in Sources */,
 				E08731D6251D20D6008D696F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,23 +436,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E08731D7251D20D6008D696F /* Sample_App.xcdatamodeld */ = {
+		E0B19A30253895D500C935D1 /* MarvelModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E08731D8251D20D6008D696F /* Sample_App.xcdatamodel */,
+				E0B19A31253895D500C935D1 /* MarvelModel.xcdatamodel */,
 			);
-			currentVersion = E08731D8251D20D6008D696F /* Sample_App.xcdatamodel */;
-			path = Sample_App.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		E08731EC25263C46008D696F /* NFL.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E08731ED25263C46008D696F /* NFL.xcdatamodel */,
-			);
-			currentVersion = E08731ED25263C46008D696F /* NFL.xcdatamodel */;
-			path = NFL.xcdatamodeld;
+			currentVersion = E0B19A31253895D500C935D1 /* MarvelModel.xcdatamodel */;
+			path = MarvelModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

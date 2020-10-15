@@ -26,7 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func sharedSetup() {
+        print("Do Shared Setup")
         _ = ModelManager()
+        _ = NetworkManager()
     }
 }
 

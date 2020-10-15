@@ -15,6 +15,8 @@ target 'Sample-App' do
 
     pod 'Alamofire', '~> 5.2'
     pod 'Moya', '~> 14.0'
+    pod 'Baxter'
+    pod 'SwiftyJSON'
     
 end
 

@@ -1,23 +1,35 @@
 PODS:
   - Alamofire (5.2.2)
+  - Baxter (1.7.1):
+    - Stanley
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - Stanley (2.17.1)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - Baxter
   - Moya (~> 14.0)
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - Baxter
     - Moya
+    - Stanley
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Baxter: 1b4cf6207522e961a2a324d6085f129d3f197fba
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Stanley: b6b6baa312c6885489c7875cf59fbb7e54ad3bd1
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 8fa2af9ca8da40eea057776de2694fd2a5738b72
+PODFILE CHECKSUM: e52205a123be9fcb311787cfa5b2b11acbc0586e
 
 COCOAPODS: 1.9.3

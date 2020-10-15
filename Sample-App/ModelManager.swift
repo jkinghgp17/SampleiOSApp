@@ -6,10 +6,27 @@
 //  Copyright © 2020 Jake King. All rights reserved.
 //
 
+import Baxter
 import Foundation
 import CoreData
 
 final class ModelManager {
+    // MARK: - Public Properties
+    /**
+     Access the shared `ModelManager` instance once it has been initialized, which is done within the `AppDelegate`.
+     
+     Unit tests must setup their instance manually, see the files in the **sporttrade-ios-unit-tests** group for examples.
+    */
+    private(set) static var shared: ModelManager!
+    
+    /**
+     Access the `NSManagedObjectContext` tied to the main thread, which **must** be used for all primary user interactions.
+     
+     Cancellable user interactions should use `ModelManager.createMainContext()` to create a secondary context tied to the main thread which can be disposed of when the user interaction completes.
+     */
+    var viewContext: NSManagedObjectContext {
+        return self.persistentContainer.viewContext
+    }
     
     // MARK: - Core Data stack
 
@@ -20,7 +37,7 @@ final class ModelManager {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Sample_App")
+        let container = NSPersistentContainer(name: "MarvelModel")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -56,12 +73,8 @@ final class ModelManager {
         }
     }
     
-    /**
-     Access the `NSManagedObjectContext` tied to the main thread, which **must** be used for all primary user interactions.
-     
-     Cancellable user interactions should use `ModelManager.createMainContext()` to create a secondary context tied to the main thread which can be disposed of when the user interaction completes.
-     */
-    var viewContext: NSManagedObjectContext {
-        return self.persistentContainer.viewContext
+    // MARK: - Initializers
+    init() {
+        Self.shared = self
     }
 }
