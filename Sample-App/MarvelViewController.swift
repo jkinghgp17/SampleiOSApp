@@ -11,7 +11,7 @@ import UIKit
 
 final class MarvelViewController: UIViewController {
     
-    private var ResponseModelView: MarvelResponseViewModel = MarvelResponseViewModel()
+    private let responseViewModel = MarvelResponseViewModel()
     
      // MARK: - Initializers
         override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {

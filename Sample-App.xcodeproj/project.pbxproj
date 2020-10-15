@@ -20,6 +20,7 @@
 		E0B19A32253895D500C935D1 /* MarvelModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A30253895D500C935D1 /* MarvelModel.xcdatamodeld */; };
 		E0B19A342538996100C935D1 /* MarvelResponseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A332538996100C935D1 /* MarvelResponseViewModel.swift */; };
 		E0B19A362538998400C935D1 /* MarvelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A352538998400C935D1 /* MarvelViewController.swift */; };
+		E0B19A382538C1EA00C935D1 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B19A372538C1EA00C935D1 /* APIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E0B19A31253895D500C935D1 /* MarvelModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarvelModel.xcdatamodel; sourceTree = "<group>"; };
 		E0B19A332538996100C935D1 /* MarvelResponseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelResponseViewModel.swift; sourceTree = "<group>"; };
 		E0B19A352538998400C935D1 /* MarvelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelViewController.swift; sourceTree = "<group>"; };
+		E0B19A372538C1EA00C935D1 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E0B19A2A253604DA00C935D1 /* NetworkManager.swift */,
 				E0B19A2C2537665A00C935D1 /* MarvelService.swift */,
 				E0B19A2E25376C5100C935D1 /* APIHelper.swift */,
+				E0B19A372538C1EA00C935D1 /* APIHelper.swift */,
 				E0B19A30253895D500C935D1 /* MarvelModel.xcdatamodeld */,
 				E0B19A332538996100C935D1 /* MarvelResponseViewModel.swift */,
 				E0B19A352538998400C935D1 /* MarvelViewController.swift */,
@@ -240,6 +243,7 @@
 				E0B19A32253895D500C935D1 /* MarvelModel.xcdatamodeld in Sources */,
 				E0B19A2D2537665A00C935D1 /* MarvelService.swift in Sources */,
 				E0B19A2F25376C5100C935D1 /* APIHelper.swift in Sources */,
+				E0B19A382538C1EA00C935D1 /* APIHelper.swift in Sources */,
 				E08731D6251D20D6008D696F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
